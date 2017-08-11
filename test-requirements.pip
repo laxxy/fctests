@@ -1,0 +1,4 @@
+pep8
+pylint
+selenium==3.5.0
+pytest-allure-adaptor
