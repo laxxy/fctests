@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 def get_requirements():
-    """Reads the installation requirements from requirements.pip"""
+    """Reads the installation requirements from test-requirements.pip"""
     with open("test-requirements.pip") as f:
         lines = f.read().split("\n")
         lines_without_comments = [line for line in lines if not line.startswith('#') and not line == '']
@@ -10,7 +10,7 @@ def get_requirements():
 
 setup(name='selenium_t',
       version='0.0.1',
-      description='lantern_dno',
+      description='selenium tests',
       author='',
       author_email='',
       url='',
