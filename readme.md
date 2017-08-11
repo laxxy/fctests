@@ -11,7 +11,6 @@ you could use any other name instead of `fctests`
 - activate the env by running `workon fctests`
 - run `python setup.py install`
 
-#Run locally
-
 
 # Run tests
+- run smoke tests `invoke test.smoke`
