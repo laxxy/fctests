@@ -3,3 +3,4 @@ pylint
 selenium==3.5.0
 pytest==3.2.1
 pytest-allure-adaptor
+invoke==0.13.0
