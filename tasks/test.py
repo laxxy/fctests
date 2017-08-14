@@ -14,4 +14,4 @@ def getReportPath():
 @task
 def smoke(ctx):
     """ Run tests, it just example"""
-    ctx.run('pytest -v test/smoke/test1.py --alluredir ' + getReportPath())
+    ctx.run('pytest -v test/smoke/SmokeTest.py --alluredir ' + getReportPath())
